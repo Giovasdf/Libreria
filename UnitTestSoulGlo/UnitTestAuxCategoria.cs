@@ -15,7 +15,6 @@ namespace UnitTestSoulGlo
             AuxCategoria auxCategoria = new AuxCategoria();
             Categoria categoria = new Categoria();
 
-
             categoria.Idcategoria = 1;
             categoria.Nombre = "Shampoo";
             categoria.Descripcion = "El mejor shampoo del mundo";
@@ -255,7 +254,7 @@ namespace UnitTestSoulGlo
 
             int? resultadoEsperado = 0;
             int resultadoObtenido = 0;
-            
+
 
             //ACT
             resultadoObtenido = auxCategoria.Eliminar(idCategoriaNoExistente);
@@ -313,7 +312,7 @@ namespace UnitTestSoulGlo
 
             resultadoObtenido = categoria.Idcategoria;
             //assert
-            Assert.AreEqual(resultadoEsperado,resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
 
         }
         [TestMethod]

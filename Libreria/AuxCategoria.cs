@@ -20,10 +20,8 @@ namespace Libreria
         public int Agregar(Categoria Nueva)
         {
             int res = 0;
-
             DatosCategorias.Add(Nueva);
             res = 1;
-
             return res;
         }
 
@@ -105,7 +103,6 @@ namespace Libreria
             {
                 if (c.Idcategoria == idcat)
                 {
-                    //cat = c;
                     break;
                 }
             }
