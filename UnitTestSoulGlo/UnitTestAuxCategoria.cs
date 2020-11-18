@@ -422,6 +422,5 @@ namespace UnitTestSoulGlo
         }
         #endregion obtener parametros de instancias de  Categoria
 
-
     }
 }
